@@ -10,6 +10,7 @@ set history=100
 set undolevels=150
 set shiftwidth=3
 set tabstop=3
+set mouse=r
 set nobk
 
 filetype indent on
@@ -41,7 +42,9 @@ call Setcolor('')
 highlight visual       cterm=bold ctermbg=darkgrey   ctermfg=none
 highlight lineNr       cterm=none ctermbg=none    ctermfg=lightcyan
 highlight statusline   cterm=bold ctermbg=darkred ctermfg=white
-highlight statuslineNc cterm=bold ctermbg=white   ctermfg=black	  
+highlight statuslineNc cterm=bold ctermbg=white   ctermfg=black
+
+set guicursor=i:ver100-iCursor
 
 
 
